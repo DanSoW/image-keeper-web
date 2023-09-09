@@ -1,0 +1,35 @@
+.container {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  width: 150px;
+  height: 54px;
+  display: inline-flex;
+  padding: 15px 20px 15px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  background: #EEE;
+  transition: background 0.8s;
+}
+.container p {
+  color: #3D293F;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.45px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+.container img {
+  width: 24px;
+  height: 24px;
+}
+.container:hover {
+  cursor: pointer;
+  background-color: rgb(194, 194, 255);
+}

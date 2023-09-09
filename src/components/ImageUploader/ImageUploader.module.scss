@@ -1,0 +1,69 @@
+@import "../../styles/colors";
+
+.imageUploader {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.formUpload {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.upload {
+    width: 80px;
+    height: 65px;
+    z-index: 1;
+}
+
+.uploadFile {
+    position: absolute;
+    top: 40%;
+    width: 24px;
+    height: 24px;
+    z-index: 0;
+}
+
+.uploadTitle {
+    color: $gray_900;
+    font-family: Inter;
+    font-size: 31.104px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.933px;
+    margin: 0;
+    padding: 0;
+}
+
+.uploadDescription {
+    margin: 0;
+    padding: 0;
+    color: $gray_500;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.45px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

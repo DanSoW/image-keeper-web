@@ -1,0 +1,68 @@
+@import "../../styles/devices";
+@import '../../styles/colors';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    margin-top: 33px;
+    display: flex;
+    height: max-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.category {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.textDate {
+    color: $gray_200;
+    font-family: Inter;
+    font-size: 31.104px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.933px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.dayDate {
+    display: flex;
+    margin: 0;
+    padding: 5px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: #FFF;
+    background-color: $green;
+    font-family: Inter;
+    font-size: 21.6px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.648px;
+    border-radius: 10px;
+
+    width: 35px;
+    height: 34px;
+}

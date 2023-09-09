@@ -1,0 +1,40 @@
+@import "../../../styles/colors";
+
+.container {
+    margin-top: 55px;
+    width: 150px;
+    height: 54px;
+    display: inline-flex;
+    padding: 15px 20px 15px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: $gray_200;
+
+    transition: background 0.8s;
+
+    p {
+        color: $purple_800;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: -0.45px;
+        margin: 0;
+        padding: 0;
+
+        cursor: pointer;
+    }
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(194, 194, 255);
+    }
+}

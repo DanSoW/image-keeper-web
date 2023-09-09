@@ -1,0 +1,61 @@
+@import '../../../styles/colors';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: $gray_900;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25.92px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -0.778px;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    margin-top: 40px;
+    width: 335px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.maxText {
+    color: $gray_500;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.375px;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.textInput {
+    margin-top: 20px;
+    width: 335px;
+    text-align: center;
+    outline: none;
+    color: $purple_800;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.54px;
+    border: none;
+    resize: none;
+    background-color: transparent;
+}

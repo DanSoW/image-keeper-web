@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #393E46;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25.92px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.778px;
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  margin-top: 40px;
+  width: 335px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.maxText {
+  color: #929AAB;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.375px;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.textInput {
+  margin-top: 20px;
+  width: 335px;
+  text-align: center;
+  outline: none;
+  color: #3D293F;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: -0.54px;
+  border: none;
+  resize: none;
+  background-color: transparent;
+}
